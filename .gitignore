@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.tox/
+
+# Test and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated reports
+repoghost-report.md
+repoghost-report.json
+**/evidence*.json
+**/explanation*.md
+*.tmp
+*.temp
+*.log
+
+# Local configuration
+.env
+.env.*
+!.env.example
